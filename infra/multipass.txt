@@ -1,0 +1,8 @@
+#master
+multipass launch --name kmaster --mem 4G --disk 10G --cpus 3
+#node
+multipass launch --name knode --mem 2G --disk 10G --cpu 2
+# list 
+multipass list
+# ingresar al shell
+multipass shell [name]
